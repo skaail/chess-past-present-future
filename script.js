@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             pastSquares[parseInt(info[0])].classList.add("p2");
             pastSquares[parseInt(info[0])].classList.remove("movable");
             pastSquares[parseInt(info[0])].classList.remove("up");
-            
+            console.log('a')
             move = false
             isSelected = false
         }
